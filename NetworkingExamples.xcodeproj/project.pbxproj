@@ -9,21 +9,30 @@
 /* Begin PBXBuildFile section */
 		12B3DBA1245C6E8E003A6E7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3DBA0245C6E8E003A6E7C /* AppDelegate.swift */; };
 		12B3DBA3245C6E8E003A6E7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3DBA2245C6E8E003A6E7C /* SceneDelegate.swift */; };
-		12B3DBA5245C6E8E003A6E7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3DBA4245C6E8E003A6E7C /* ViewController.swift */; };
-		12B3DBA8245C6E8E003A6E7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B3DBA6245C6E8E003A6E7C /* Main.storyboard */; };
 		12B3DBAA245C6E8E003A6E7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B3DBA9245C6E8E003A6E7C /* Assets.xcassets */; };
 		12B3DBAD245C6E8E003A6E7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12B3DBAB245C6E8E003A6E7C /* LaunchScreen.storyboard */; };
+		12B3DBBA245CD278003A6E7C /* CurrencyJSONTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3DBB9245CD278003A6E7C /* CurrencyJSONTVC.swift */; };
+		12B3DBBC245CD348003A6E7C /* CombineJsonTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3DBBB245CD348003A6E7C /* CombineJsonTVC.swift */; };
+		12B3DBC1245D26BF003A6E7C /* JSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3DBC0245D26BF003A6E7C /* JSONDecoder.swift */; };
+		12B3DBC4245D2750003A6E7C /* CurrencyRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3DBC3245D2750003A6E7C /* CurrencyRates.swift */; };
+		12B3DBC8245DC95D003A6E7C /* CurrencyInfoTVHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3DBC7245DC95D003A6E7C /* CurrencyInfoTVHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12B3DB9D245C6E8E003A6E7C /* NetworkingExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B3DBA0245C6E8E003A6E7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12B3DBA2245C6E8E003A6E7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12B3DBA4245C6E8E003A6E7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		12B3DBA7245C6E8E003A6E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12B3DBA9245C6E8E003A6E7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12B3DBAC245C6E8E003A6E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12B3DBAE245C6E8E003A6E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B3DBB5245C6EB1003A6E7C /* JSON.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = JSON.playground; path = "../../../../../../Library/Autosave Information/JSON.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		12B3DBB6245C6EE5003A6E7C /* URLSession.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = URLSession.playground; path = "../../../../../../Library/Autosave Information/URLSession.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		12B3DBB7245C6F20003A6E7C /* Combine+URLSession.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "Combine+URLSession.playground"; path = "../../../../../../Library/Autosave Information/Combine+URLSession.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		12B3DBB9245CD278003A6E7C /* CurrencyJSONTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyJSONTVC.swift; sourceTree = "<group>"; };
+		12B3DBBB245CD348003A6E7C /* CombineJsonTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineJsonTVC.swift; sourceTree = "<group>"; };
+		12B3DBC0245D26BF003A6E7C /* JSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecoder.swift; sourceTree = "<group>"; };
+		12B3DBC3245D2750003A6E7C /* CurrencyRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRates.swift; sourceTree = "<group>"; };
+		12B3DBC7245DC95D003A6E7C /* CurrencyInfoTVHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyInfoTVHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +65,69 @@
 		12B3DB9F245C6E8E003A6E7C /* NetworkingExamples */ = {
 			isa = PBXGroup;
 			children = (
+				12B3DBC5245DC936003A6E7C /* Views */,
+				12B3DBC2245D2745003A6E7C /* Model */,
+				12B3DBBD245D2663003A6E7C /* Networking */,
+				12B3DBB8245CD225003A6E7C /* Controllers */,
+				12B3DBB4245C6E99003A6E7C /* Playgrounds */,
 				12B3DBA0245C6E8E003A6E7C /* AppDelegate.swift */,
 				12B3DBA2245C6E8E003A6E7C /* SceneDelegate.swift */,
-				12B3DBA4245C6E8E003A6E7C /* ViewController.swift */,
-				12B3DBA6245C6E8E003A6E7C /* Main.storyboard */,
 				12B3DBA9245C6E8E003A6E7C /* Assets.xcassets */,
 				12B3DBAB245C6E8E003A6E7C /* LaunchScreen.storyboard */,
 				12B3DBAE245C6E8E003A6E7C /* Info.plist */,
 			);
 			path = NetworkingExamples;
+			sourceTree = "<group>";
+		};
+		12B3DBB4245C6E99003A6E7C /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				12B3DBB7245C6F20003A6E7C /* Combine+URLSession.playground */,
+				12B3DBB6245C6EE5003A6E7C /* URLSession.playground */,
+				12B3DBB5245C6EB1003A6E7C /* JSON.playground */,
+			);
+			path = Playgrounds;
+			sourceTree = "<group>";
+		};
+		12B3DBB8245CD225003A6E7C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				12B3DBB9245CD278003A6E7C /* CurrencyJSONTVC.swift */,
+				12B3DBBB245CD348003A6E7C /* CombineJsonTVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		12B3DBBD245D2663003A6E7C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				12B3DBC0245D26BF003A6E7C /* JSONDecoder.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		12B3DBC2245D2745003A6E7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12B3DBC3245D2750003A6E7C /* CurrencyRates.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		12B3DBC5245DC936003A6E7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12B3DBC6245DC93C003A6E7C /* TableView Headers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		12B3DBC6245DC93C003A6E7C /* TableView Headers */ = {
+			isa = PBXGroup;
+			children = (
+				12B3DBC7245DC95D003A6E7C /* CurrencyInfoTVHeader.swift */,
+			);
+			path = "TableView Headers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +190,6 @@
 			files = (
 				12B3DBAD245C6E8E003A6E7C /* LaunchScreen.storyboard in Resources */,
 				12B3DBAA245C6E8E003A6E7C /* Assets.xcassets in Resources */,
-				12B3DBA8245C6E8E003A6E7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +200,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12B3DBA5245C6E8E003A6E7C /* ViewController.swift in Sources */,
+				12B3DBC1245D26BF003A6E7C /* JSONDecoder.swift in Sources */,
+				12B3DBC8245DC95D003A6E7C /* CurrencyInfoTVHeader.swift in Sources */,
 				12B3DBA1245C6E8E003A6E7C /* AppDelegate.swift in Sources */,
+				12B3DBC4245D2750003A6E7C /* CurrencyRates.swift in Sources */,
 				12B3DBA3245C6E8E003A6E7C /* SceneDelegate.swift in Sources */,
+				12B3DBBA245CD278003A6E7C /* CurrencyJSONTVC.swift in Sources */,
+				12B3DBBC245CD348003A6E7C /* CombineJsonTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		12B3DBA6245C6E8E003A6E7C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				12B3DBA7245C6E8E003A6E7C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		12B3DBAB245C6E8E003A6E7C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

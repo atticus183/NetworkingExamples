@@ -17,7 +17,42 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+
+        //source: https://www.youtube.com/watch?v=Htn4h51BQsk
+        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+        window?.windowScene = windowScene
+        window?.rootViewController = createTabBar()
+        window?.makeKeyAndVisible()
+    }
+    
+    //MARK: Create tabbar VCs
+    fileprivate func createFirstVC() -> UINavigationController {
+        let firstVC = CurrencyJSONTVC()
+        firstVC.title = "Currency Rates"
+        firstVC.view.backgroundColor = .systemBackground
+        let tabBarImage = UIImage(systemName: "dollarsign.circle")
+        firstVC.tabBarItem = UITabBarItem(title: firstVC.title, image: tabBarImage, tag: 0)
+        
+        return UINavigationController(rootViewController: firstVC)
+    }
+
+    fileprivate func createSecondVC() -> UINavigationController {
+        let secondVC = UIViewController()
+        secondVC.title = "Combine JSON Example"
+        secondVC.view.backgroundColor = .systemBackground
+        let tabBarImage = UIImage(systemName: "person")
+        secondVC.tabBarItem = UITabBarItem(title: secondVC.title, image: tabBarImage, tag: 1)
+        
+        return UINavigationController(rootViewController: secondVC)
+    }
+
+    fileprivate func createTabBar() -> UITabBarController {
+        let tabBar = UITabBarController()
+        UITabBar.appearance().tintColor = .systemTeal
+        tabBar.viewControllers = [createFirstVC(), createSecondVC()]
+        
+        return tabBar
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
